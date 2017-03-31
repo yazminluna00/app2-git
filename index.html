@@ -1,0 +1,364 @@
+﻿<!doctype html>
+ <html>
+  <head>
+  <meta charset="utf-8">
+   <title>Segunda aplicacion</title>
+   
+
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="estilos-goa.css"/>
+    <link rel="stylesheet" href="css/tema-app1.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+	
+	<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+	
+	<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+    
+    
+    </head>
+
+   <body onLoad="MM_preloadImages('imagenes/motorola.png','imagenes/grandprime.png','imagenes/motoz.png','imagenes/motoplay.png')">
+   
+     <div data-role="page" id="Principal" data-theme="c">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="c">
+       <h1>Telefonía celular</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+       	<h1 align="center">Celular 1</h1>
+       <div>
+       	<p align="center">Samsung Grand Prime Plus:</p>
+        <div align="center"><br>
+        </div>
+       </div>
+	   <div>
+         </div>
+		<div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/grandp.png',1)"><img src="imagenes/grandplus.png" width="31%" height="40%" id="Image4"></a>
+	     </div>
+       </div>
+	    <div data-role="collapsible" data-content-theme="false">
+       	<h1 align="center">Celular 2</h1>
+       <div>
+       	<p align="center">Motorola Z Play </p>
+        <div align="center"><br>
+        </div>
+       </div>
+	   <div>
+         <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/motoplay.png',1)"><img src="imagenes/motoz.png" width="31%" height="43%" id="Image2"></a>
+         </div>
+	   </div>
+       </div>
+      </div>
+     <div>
+      <ul data-role="listview" data-theme"c" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-bnt-icon-right ui-icon-carat-r">
+          <h2>Definición de teléfono celular</h2>
+          <p>¿Qué es un teléfono celular?</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-bnt-icon-right ui-icon-carat-r">
+          <h2>Historia de la telefonía celular</h2>
+          <p>Reseña sobre cómo surgio el teléfono celular</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-bnt-icon-right ui-icon-carat-r">
+          <h2>Clasificación de celulares</h2>
+          <p>Gama baja , gama media y gama alta</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-bnt-icon-right ui-icon-carat-r">
+          <h2>Compañias telefónicas en México</h2>
+          <p>Compañias que ofrecen el servicio de telefonia celular</p>
+        </a>
+       </li>
+       </ul>
+	   
+	   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/grand.png" alt="grand" title="grand" id="wows1_0"/></li>
+		<li><img src="data1/images/grandp.png" alt="grandp" title="grandp" id="wows1_1"/></li>
+		<li><img src="data1/images/grandplus.png" alt="grandplus" title="grandplus" id="wows1_2"/></li>
+		<li><img src="data1/images/lg.png" alt="lg" title="lg" id="wows1_3"/></li>
+		<li><img src="data1/images/logo.png" alt="logo" title="logo" id="wows1_4"/></li>
+		<li><img src="data1/images/motoe.png" alt="motoe" title="motoe" id="wows1_5"/></li>
+		<li><img src="data1/images/motoplay.png" alt="motoplay" title="motoplay" id="wows1_6"/></li>
+		<li><img src="data1/images/motorola.png" alt="motorola" title="motorola" id="wows1_7"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/motoz.png" alt="http://wowslider.com/" title="motoz" id="wows1_8"/></a></li>
+		<li><img src="data1/images/movistar.png" alt="movistar" title="movistar" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="grand"><span><img src="data1/tooltips/grand.png" alt="grand"/>1</span></a>
+		<a href="#" title="grandp"><span><img src="data1/tooltips/grandp.png" alt="grandp"/>2</span></a>
+		<a href="#" title="grandplus"><span><img src="data1/tooltips/grandplus.png" alt="grandplus"/>3</span></a>
+		<a href="#" title="lg"><span><img src="data1/tooltips/lg.png" alt="lg"/>4</span></a>
+		<a href="#" title="logo"><span><img src="data1/tooltips/logo.png" alt="logo"/>5</span></a>
+		<a href="#" title="motoe"><span><img src="data1/tooltips/motoe.png" alt="motoe"/>6</span></a>
+		<a href="#" title="motoplay"><span><img src="data1/tooltips/motoplay.png" alt="motoplay"/>7</span></a>
+		<a href="#" title="motorola"><span><img src="data1/tooltips/motorola.png" alt="motorola"/>8</span></a>
+		<a href="#" title="motoz"><span><img src="data1/tooltips/motoz.png" alt="motoz"/>9</span></a>
+		<a href="#" title="movistar"><span><img src="data1/tooltips/movistar.png" alt="movistar"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+	   
+      </div>
+      <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+     	 <div>
+       		 <img src="imagenes/logo.png" width="46" height="46">
+      	</div>
+      <div>
+        <h4>Aplicación Dos</h4>
+        <h4>YAZMIN LUNA CASTELLANOS</h4>
+      </div>
+     </div>
+    </div>
+	
+	
+	
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+        <h1>DEFINICIÓN</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+            <h2>Un teléfono es un aparato que permite transmitir sonidos a distancia mediante señales eléctricas.Es un dispositivo inalámbrico electrónico para acceder y utilizar los servicios de las redes de telefonía celular o móvil y así poder comunicarse mediante llamadas de voz, mensajes de texto, acceder a Internet y otros servicios. Se denomina celular en la mayoría de países latinoamericanos.</h2>
+          </div>
+         </div>
+		  <div data-role="collapsible" data-content-theme="false">
+       	<h1>Celular 1</h1>
+       <div>
+       <p>LG ZERO</p>
+       <br>
+       </div>
+	    <div>
+          <div align="center"><img src="imagenes/lg.png" width="29%" height="41%">
+          </div>
+	    </div>
+		</div>
+		 <div data-role="collapsible" data-content-theme="false">
+       	<h1>Celular2 </h1>
+       <div>
+       <p>Nokia 830</p>
+       <br>
+       </div>
+	    <div>
+          <div align="center"><img src="imagenes/nokia.png" width="21%" height="46%">
+          </div>
+	    </div>
+		 </div>
+		 <div data-role="collapsible" data-content-theme="false">
+       	<h1>Celular 3</h1>
+       <div>
+       <p>Sony Xperia L</p>
+       <br>
+       </div>
+	    <div>
+          <div align="center"><img src="imagenes/sony.png" width="27%" height="46%">
+          </div>
+	    </div>
+		</div>
+        <div data-role="footer" data-theme="c" data-position="fixed">
+            <h4>Aplicacion Dos,YLC</h4>
+         </div>
+        </div>
+		</div>
+		
+		
+        <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+         <h1>HISTORIA  </h1>
+          </div>
+          	<div data-role="content" align="center">
+            	<div>
+             		 
+			  <p>El teléfono celular se remonta a los inicios de la Segunda Guerra Mundial, donde ya se veía que era necesaria la comunicacióna distancia, es por eso que la compañía Motorola creó un equipo llamado Handie Talkie H12-16, que es un equipo que permite el contacto con las tropas vía ondas de radio</p>
+			  <p>Las tecnologías de Tesla y Marconi se unieron y dieron a la luz la comunicación mediante radio-teléfonos: Martín Cooper, pionero y considerado como el padre de la telefonía celular, fabricó el primer radio teléfono entre 1970 y 1973, en Estados Unidos, y en 1979 aparecieron los primeros sistemas a la venta en Tokio (Japón), fabricados por la Compañía NTT.
+			<p>  En 1985 se comenzaron a perfeccionar y amoldar las características de este nuevo sistema revolucionario ya que permitía comunicarse a distancia. Fue así que en los años 1980 se llegó a crear un equipo que ocupaba recursos similares a los Handie Talkie pero que iba destinado a personas que por lo general eran grandes empresarios y debían estar comunicados, es ahí donde se crea el teléfono móvil y marca un hito en la historia de los componentes inalámbricos ya que con este equipo podría hablar a cualquier hora y en cualquier lugar. El sistema celular consiste en la subdivisión de un territorio en pequeñas áreas (llamadas celdas), cada una con una antena de transmisión, de forma que la misma frecuencia puede utilizarse en distintas zonas a la vez dentro de una ciudad. Esto permite un uso mucho más eficiente del espectro. Cuanto más pequeñas sean las celdas, más frecuencias pueden reusarse y más usuarios pueden utilizar el servicio.
+            
+            <p> La segunda generación nace a principios de los años 90s, utiliza sistemas GSM, IS-136, iDEN e IS-95 con frecuencias de 900 y 1800 MHz.
+
+En esta generación se abandona el uso de ondas de radio y se da paso a la era digital de las comunicaciones. Esto ofrece grandes ventajas como la calidad de voz, mejora en la seguridad y bajos costos de operación.</p>
+ 
+			 	 </div>
+            </div>
+			 <div data-role="collapsible" data-content-theme="false">
+       	<h1>Primeros telefonos </h1>
+	    <div>
+          <div align="center"><img src="imagenes/primertel.png" width="22%" height="50%">
+          </div>
+	    </div>
+		</div>
+		
+		 <div data-role="collapsible" data-content-theme="false">
+       	<h1>Evolución </h1>
+       <div>
+       <p>Telefonos móviles</p>
+       <br>
+       </div>
+	    <div>
+          <div align="center"><img src="imagenes/primtel.png" width="50%" height="36%">
+          </div>
+	    </div>
+		 </div>
+		 <div data-role="collapsible" data-content-theme="false">
+       	<h1>Telefonos celulares actuales  </h1>
+   
+	    <div>
+          <div align="center"><img src="imagenes/actualidad.png" width="50%" height="50%">
+          </div>
+	    </div>
+		 </div>
+<div data-role="footer" data-theme="c" data-position="fixed">
+            <h4>Aplicacion Dos,YLC</h4>
+          </div>
+          </div>
+          
+         
+     <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+       <h1>CLASIFICACIÓN DE CELULARES 	</h1>
+          </div>
+          	<div data-role="content" align="center">
+            	<div>
+             		 <h2>Gama baja</h2>
+			  <p>Los celulares de gama baja son aquello con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas que contienen menores herramientas.
+			 	 
+            </div>
+			 <div data-role="collapsible" data-content-theme="false">
+       	<h1>EJEMPLO </h1>
+       <div>
+       <p>LG 180</p>
+       <br>
+       </div>
+	    <div>
+          <img src="imagenes/gamabaja.png" width="44%" height="50%">
+        </div>
+		</div>
+		</div>
+		<div data-role="content" align="center">
+            <div>
+              <h2>Gama media</h2>
+			  </div>
+			    <div>
+			  <p>Los celulares de gama media se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo<p>
+            </div>
+		 <div data-role="collapsible" data-content-theme="false">
+       	<h1>EJEMPLO DE GAMA MEDIA  </h1>
+       <div>
+       <p>Motorola Moto E</p>
+       <br>
+       </div>
+	    <div>
+          <img src="imagenes/motoe.png" width="50%" height="50%">
+        </div>
+		 </div>
+		 
+		 		 <div data-role="content" align="center">
+            <div>
+              <h2>Gama Alta</h2>
+			  </div>
+			    <div>
+			  <p>Los celulares de gama media se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo<p>
+            </div>
+
+		<div data-role="collapsible" data-content-theme="false">
+       	<h1>EJEMPLO DE GAMA ALTA  </h1>
+       <div>
+       <p>Samsung s7</p>
+       <br>
+       </div>
+	    <div>
+          <img src="imagenes/gamaalta.png" width="50%" height="50%">
+        </div>
+		 </div>
+		 </div>
+		<div data-role="footer" data-theme="c" data-position="fixed">
+            <h4>Aplicacion Dos,YLC</h4>
+          </div>
+          </div>
+		  </div>
+		  
+          
+          <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+       <h1>COMPAÑIAS TELEFONICAS </h1>
+          </div>
+          	<div data-role="content" align="center">
+            </div>
+			 <div data-role="collapsible" data-content-theme="false">
+       			<h1>MOVISTAR </h1>
+	    <div>
+		  <div align="center"><img src="imagenes/movistar.png" width="40%" height="27%"></div>
+	    </div>
+		</div>
+		
+		 <div data-role="collapsible" data-content-theme="false">
+       	<h1>TELCEL </h1>
+	    <div>
+		  <div align="center"><img src="imagenes/telcel.png" width="45%" height="24%">
+	      </div>
+	    </div>
+		 </div>
+		 <div data-role="collapsible" data-content-theme="false">
+       	<h1> UNEFON </h1>
+   	 <div>
+          <div align="center"><img src="imagenes/unefon.png" width="44%" height="20%">
+          </div>
+   	 </div>
+		 </div>
+		  <div data-role="collapsible" data-content-theme="false">
+       	<h1> AT&T </h1>
+   	 <div>
+          <div align="center"><img src="imagenes/at.png" width="31%" height="26%">
+          </div>
+   	 </div>
+		 </div>
+		 
+<div data-role="footer" data-theme="c" data-position="fixed">
+            <h4>Aplicacion Dos,YLC</h4>
+          </div>
+          </div>  
+           
+    </body>
+ </html>
+
