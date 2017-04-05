@@ -37,9 +37,9 @@ Yazmin Luna Castellanos 4e
 <!--Paraaccesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-intent href:"http://*/*"/>
+<allow-intent href="http://*/*"/>
 <acces origin="http://*/*"/>
-<plugin name:="cordova-plugin-whitelist" source="npm"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
 
 
 
