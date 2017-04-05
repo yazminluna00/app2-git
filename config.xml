@@ -34,6 +34,15 @@ Yazmin Luna Castellanos 4e
 <!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
 <!--Third part plugins-->
 
+<!--Paraaccesar a paginas en internet-->
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/"/>
+<allow-inent href:"http://*/*"/>
+<acces origin:"http://*/*"/>
+<plugin name:"cordova-pligin-whitelist" source="npm"/>
+
+
+
 <!--Colocar icono app-->
 
 <icon src="res/android/mdpi.png"/>
