@@ -39,7 +39,7 @@ Yazmin Luna Castellanos 4e
 <acces origin="https://*/"/>
 <allow-inent href:"http://*/*"/>
 <acces origin:"http://*/*"/>
-<plugin name:"cordova-pligin-whitelist" source="npm"/>
+<plugin name:"cordova-plugin-whitelist" source="npm"/>
 
 
 
